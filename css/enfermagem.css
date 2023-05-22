@@ -1,0 +1,189 @@
+*{margin: 0;
+    padding: 0;}
+    #rd-section-joq3m2vm{
+        display:none;
+    }
+body{
+max-width: 1440px;
+margin: auto;
+font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Diferenciais */
+.Diferenciais{
+background-color: #fff;
+border-radius: 50px;
+width: 90%;
+margin: auto;
+margin-top: -40px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.Diferenciais h2{
+color: #002628;
+}
+.container-diferenciais{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item1{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.container-diferenciais img{
+  width: 50px;
+}
+
+/* Diferenciais */
+
+/* cards */
+.card {
+  background-color: #00878f;
+  max-height: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: max-height 0.1s ease;
+  border: none;
+  }
+  
+  .card.show {
+    overflow-y: scroll;
+    max-height: 300px;
+  }
+  #button-1{
+    margin-top: 40px;
+  }
+  .card-header {
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  
+  /* cards */
+  
+  
+  /* text-botões */
+  .text-botoes{
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+  .text-botoes h3{
+font-size: 25px;
+}
+  .text-botoes p{
+font-size: 13px;
+}
+/* text-botões */
+
+
+/* Container - botoes e cards */
+
+.Container{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+button{
+  
+  cursor: pointer;
+}
+.Botoes{
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+  .conteudo{
+    color: #ffffff;
+    width: 50%;
+  }
+  .conteudo p{
+    
+margin-left: 10px;
+  }
+  .conteudo h3{
+
+margin-left: 10px;
+  }
+  .conteudo li{
+
+    margin-left: 10px;
+  }
+  .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    position: relative;
+    margin: 10px 32px;
+    border: none;
+    background-color: #00dae8;
+  font-weight: 600;
+}
+
+.btn-1 {
+  overflow: hidden;
+  color: #002628;
+  border-radius: 30px;
+  box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-1::after {
+  content: "";
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
+  z-index: -1;
+  transition: transform 0.5s ease;
+}
+
+.btn-1:hover {
+  transform: translate(0, -6px);
+  box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5),  -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
+}
+
+.btn-1:hover::after {
+  transform: rotate(150deg);
+}
+
+/* Container - botoes e cards */
+
+
+@media (max-width:750px){
+.Container{
+  flex-direction: column;
+}
+.Botoes{
+  width: 100%;
+}
+.conteudo{
+  width: 95%;
+  margin: auto;
+}
+#button-1{
+  margin-top: 10px;
+}
+.btn{
+  font-size: 10px;
+  max-width: 140px;
+  font-size: 10px;
+  border-radius:15px ;
+  padding: 20px 10px;
+  margin: 10px 10px;
+}
+
+}

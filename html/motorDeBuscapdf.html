@@ -1,0 +1,582 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/MotorDeBuscaPdf.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+</style>
+
+<body>
+    <div class="container-header">
+        <header data-aos="fade-right" style="transition: 2s;">
+            <div class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                    <div class="nav-title"> <i class="fa-solid fa-book"></i><a
+                            href="https://educacao.andrattibrasil.com.br/unopar-rubiataba"> <b>Unopar Rubiataba</b> </a>
+
+                    </div>
+                </div>
+                <div class="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+
+                <div class="nav-links">
+                    <a href="" target="_blank"></a>
+                    <a href="" target="_blank"></a>
+                    <a href="" target="_blank"></a>
+                    <a href="https://educacao.andrattibrasil.com.br/unopar-rubiataba">Voltar</a>
+                    <a href="https://educacao.andrattibrasil.com.br/unopar-rubiataba-contato"><b>Contato</b></a>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="Orientacoes">
+        <h1>Guias De Percuso</h1>
+        <p>Clique sobre a imagem
+            <br><br>
+            Faça o Download
+        </p>
+    </div>
+    <div class="Espaco-button-input">
+
+        <input placeholder="Pesquisar" type="text" id="searchInput" style="caret-color: red;">
+        <button onclick="search()"> <span></span>
+            <span></span>
+            <span></span>
+            <span></span> Pesquisar
+
+
+        </button>
+    </div>
+    <div class="Container-images" data-aos="fade-up">
+        <div class="images">
+            <div class="image-item">
+                <a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EezFpZexSK1HtPOPipKE8lUB5AVt3XW_xooSwIdzO0SkSw?e=gmd60J">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$b3wo1br982a"
+                        alt="Agronegócio">
+                    <h3>Agronegócio</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank"
+                    href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EeQgOReDZ5JNu7zkcK0kCggBdAdR_ltf6k_z9KqmVfa-Pg?e=LbYW0a"
+                    download>
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$0dqn6xpciq6i"
+                        alt="Análise e Desenvolvimento De Sistemas">
+                    <h3>Análise e Desenvolvimento De Sistemas</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ESfyFjd9sI5KkFBzlhx3ASsB6W-JguyitcUdqj8mMMyIRg?e=zndT6f">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$nawhyxfd4mf"
+                        alt="Arquitetura De Dados">
+                    <h3>Arquitetura De Dados</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EcJh1mNND_BLp2QCUiV-yQ8BKoIEmuQU7UBhTD5aBare_A?e=9zzUX4">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$qzi672o2icd"
+                        alt="Blockchain, Criptomoedas e Finanças">
+                    <h3>Blockchain, Criptomoedas e Finanças</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/Eef0mVkHGqNBvWqQNVj2FuYBER7iY6GRY85gg9E5296oFA?e=HMKwHW">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$a52mz2792kb"
+                        alt="Cibersegurança">
+                    <h3>Cibersegurança</h3>
+                </a>
+            </div>
+            <div class="image-item">
+                <a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EflsImy_sdREhjsSZZAH9FEB5ZdCIWSx_EnvI2u7iWEJlQ?e=qH06Px">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$5tb6go5cf0t"
+                        alt="Ciência De Dados">
+                    <h3>Ciência De Dados</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EWEWmt9TF95GkKS7aRFDXpcBoIcHVcNDQupPc1Ml0dYwyw?e=gGzmyc">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$rwr6kh12oyr"
+                        alt="Coaching e Desenvolvimento Humano">
+                    <h3>Coaching e Desenvolvimento Humano</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EcLIg1omn3dNno_0yp0Qp6wBXq02fR4uBCBZWSSKeI0MIw?e=RjTQCg">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$d9r5bxzb4a"
+                        alt="Comércio Exterior">
+                    <h3>Comércio Exterior</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EVi1O4JWBXhOsKQvqxQrjnEBA9WlTAlH_wkzyouWIZar9g?e=cQd2un">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$1tk6q4rcjj5"
+                        alt="Computação Em Nuvem">
+                    <h3>Computação Em Nuvem</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EZl-scFqL1VNqdIYfPAYmMIBZ83_OlY2Qx9EccJ--Ztw7Q?e=Gww176">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$d2ve5r6z5pe"
+                        alt="Desenvolvimento Back-end">
+                    <h3>Desenvolvimento Back-end</h3>
+                </a>
+            </div>
+            <div class="image-item">
+                <a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EQH7NkMRsd1IqXZiQtalSBEBSrFzkVIcRr9sPmuEHwXmeA?e=ZaFddw">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$sdl7o8xuqk"
+                        alt="Desenvolvimento Mobile">
+                    <h3>Desenvolvimento Mobile</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/Ec3RrfHFWthGtUA3ok3TBjYBBxQITLhzIklqFdXhLckClA?e=sjLUGq">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$gjc6sq4u6rq"
+                        alt="Desenvolvimento Web">
+                    <h3>Desenvolvimento Web</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EbdmBqq1a8lLnCd_Z66lyhYB1GjqlzFJA5tlv0ZySpRcLQ?e=Hfj8Gn">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$zihywcu9gha"
+                        alt="Design De Moda">
+                    <h3>Design De Moda</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ES5_Hn15rsFHorHPEAo6FY4BoifhAUv1twXajPWWwtDYFA?e=GpzFto">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$p4beby7pjok"
+                        alt="Design Gráfico">
+                    <h3>Design Gráfico</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ETj4ku4cDWZLgDHXXzs0LB0Bt-inUC3pIj5mz2T_5oWLgA?e=leNYB5">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$lbldxok13xe"
+                        alt="Design De Interiores">
+                    <h3>Design De Interiores</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ESDhxI2eP81Ml5LQNMDMLbEBTFyqT3sgYoQrL0fXQS-VhA?e=HnUrbe">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$ha60cfgiov5"
+                        alt="Devops">
+                    <h3>Devops</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ERvGzJQ79HVDsjgzPFVG47IBrcrA9rNb1pkQjaj1C5yhJA?e=rmlBdi">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$8qs8maf5mfa"
+                        alt="Empreendedorismo">
+                    <h3>Empreendedorismo</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EYO_AOOuqMtHpJ6HESWwYbgBZYKha4rFjYa4wOQ88Zt83Q?e=KdGIxT">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$e9ii5h39swa"
+                        alt="Empreendedorismo E Novos Negócios">
+                    <h3>Empreendedorismo E Novos Negócios</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EUtRywvxt_ZBj4P7lidQcUEBjjoa0rfg-BeRLVfFIPBScA?e=KdAzs2">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$nhatxe33ajp"
+                        alt="Eventos">
+                    <h3>Eventos</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EaToQabl7DZDvI95ySmmpggB0LBUOs37xFllBnDBvjw6XQ?e=MC3LIw">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$z6020pwf5db"
+                        alt="Fotografia">
+                    <h3>Fotografia</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ERL7t1B4n5ZAmz-NO9IZIqEBnA_D7ydA8NTVb1ZDRh2XBg?e=lKXhQe">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$do6bdve1huk"
+                        alt="Gerontologia">
+                    <h3>Gerontologia</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EeCC2cg-s6pIn3fzQ0lNgWoBsX2b9miFhdZALV7ELsrSiw?e=rA4z8P">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$iq24tat387s"
+                        alt="Gestão Ambiental">
+                    <h3>Gestão Ambiental</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EbWqL0WlUEtDkbR8c4PNvQgBuS2HHmwA72acC5gDMH4SFw?e=lgUdir">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$i2urmuk6wz"
+                        alt="Gestão Comercial">
+                    <h3>Gestão Comercial</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EY0Ga_aLvqlIq6FnJg-eQJEB6hh_cbX8cLytdbpWKQ1IKg?e=OLHcKA">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$6ig6r8pswgi"
+                        alt="Gestão Da Inovação">
+                    <h3>Gestão Da Inovação</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ER03YJ99XpBJljvOJU_CuzwBObu5Q6w0b5ZLk3Y_-BbjGw?e=ZauvWI">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$fhudvkn15io"
+                        alt="Gestão Da Produção Industrial">
+                    <h3>Gestão Da Produção Industrial</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EdJ-yLasS9tCsoj4kbw-SUoBQi2xeTAFpgoMBqUnN1Wvrg?e=gcJ4gK">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$7m1nccniomn"
+                        alt="Gestão Da Qualidade">
+                    <h3>Gestão Da Qualidade</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EdC98Xqt_Q1FomTQb2feV-MB11F0lyBiklUaOjiu9OSe-A?e=rgpdm0">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$amb3q11gula"
+                        alt="Gestão Da Tecnologia Da Informação">
+                    <h3>Gestão Da Tecnologia Da Informação</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ESHDlKqJJJBMn8i8ZoI_2BsBtqkqF4-clRTWD00BDTgEoQ?e=6wquu2">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$i827p78uvrk"
+                        alt="Gestão De Cooperativas">
+                    <h3>Gestão De Cooperativas</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EXAhLrwHjkJAtbrThowKMtEB-7ZS1XYGwe6QbYicneHRDQ?e=G4gTj6">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$cox1598xgo"
+                        alt="Gestão De Produto">
+                    <h3>Gestão De Produto</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EQ6jNLXfB85Dge6HylpOwJQBJpYj7l4FW8EILRsm1iIQbA?e=fyvgbI">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$muy8z0ie3j"
+                        alt="Gestão De Recursos Humanos">
+                    <h3>Gestão De Recursos Humanos</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ERs8b2lPvGpJmfKHhRGH7sAB7B3W0113t4aeF7leJQE8vA?e=jbqalA">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$civlxgqu6ug"
+                        alt="Gestão De Saúde Pública">
+                    <h3>Gestão De Saúde Pública</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/Ed7Bc5GiJjtGhbZvu_mHzvQBL5xcHJUu9-xXTswG6QtKgQ?e=4Z1EHm">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$qkgchlgb9jo"
+                        alt="Gestão De Turismo">
+                    <h3>Gestão De Turismo</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EXjrQDjKbC1Gp9Qd0A5cebsB_FszInzqGw-yODzVzmGCog?e=L7jcIF">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$2adml07goml"
+                        alt="Gestão Financeira">
+                    <h3>Gestão Financeira</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EV_78xp1vBNPlJf9deX8pskBOm667MD44sk-Q6Tk_4MEyA?e=ZiZYMA">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$uno34hmcyt"
+                        alt="Gestão Hospitalar">
+                    <h3>Gestão Hospitalar</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ET89EV2B3TpHswBajUZ7F4gBYWIBmyDtoWpuHXQ28mwz6g?e=n8BMH7">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$b8yh0fnnh2"
+                        alt="Gestão Portuária">
+                    <h3>Gestão Portuária</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EWvrxTjQLF5IhKWmqtjSbp8BVBSk7K_zw0hGGoE0_nf0UQ?e=CLSayT">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$k5kgruidkm"
+                        alt="Gestão Pública">
+                    <h3>Gestão Pública</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EY2CrFw6GGZHgJNuELgKd4kBFRRPEWsGXR-mA6oUZ6e_Sw?e=6Uaps1">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$i1q4k9liyy"
+                        alt="Investigação De Mercado E Análise Dados">
+                    <h3>Investigação De Mercado E Análise Dados</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EabPBbr-Vm9BpedgyVUr_iYBYkg1VjK8SRRfqXyQwHXbOg?e=ZGsqqc">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$yoi40wc2jh"
+                        alt="Investigação E Perícia Criminal">
+                    <h3>Investigação E Perícia Criminal</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ER6LEDwNwKlHv-025F1WfEsB_PBgPYcisGUAPeDU80nQyw?e=mV5rEL">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$wzns7pwqutm"
+                        alt="Jogos Digitais">
+                    <h3>Jogos Digitais</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EfE-NbPzFxZBm4OIG9cde3UBuUdJXf1XqEiqsxejmldLCg?e=JbhffR">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$2jd3hb1djsb"
+                        alt="Logística">
+                    <h3>Logística</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EYRmiFEYkcBMs_y45jQx8cMBYg1ZpQnn9-WiYF7kDMFbvQ?e=2NhCIB">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$f9fiv37nmjb"
+                        alt="Marketing">
+                    <h3>Marketing</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ERiYevsIi1hNlepdyrVOEkcB06tERkDMVPPfLNmtmHJziA?e=kA3U16">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$4ol50ep3m6e"
+                        alt="Marketing Digital">
+                    <h3>Marketing Digital</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EUSgyrDbmRFNp_0XPD2FZ-8B8wPGuHQ0i9O6rgC5YzRYdQ?e=LBaZ39">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$7hnjnfhiuwg"
+                        alt="Mediação">
+                    <h3>Mediação</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EUJLdJ8BZIZJkEz46GfDMPQBw61tKfCBzlZ6_W0NM--KRQ?e=9MoY5V">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$6pqisczw4y4"
+                        alt="Negócios Imobiliários">
+                    <h3>Negócios Imobiliários</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EbmmGey6E2xClSWUUGZD1OABQQ2GR4QS27UpMInrro1NdQ?e=hnK9oS">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$38wtyvdvhg9"
+                        alt="Processos Gerenciais">
+                    <h3>Processos Gerenciais</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/Eb34jRvP4IxNpCR1xwt78n4BIYvJT0hcS5-72MGbS0BZXQ?e=XggGSl">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$fiwkk3oz7a"
+                        alt="Produção Cervejeira">
+                    <h3>Produção Cervejeira</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ETRF1zqI9upMl8p9B8PTvOgBMaFxeiteWdfhCUep3NJ0ig?e=F5nMSJ">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$gkmu7wp0sf"
+                        alt="Radiologia">
+                    <h3>Radiologia</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EUvHWyQGNZxDhIzQVOkBrSQBYA86uZko7i7Ahs5glFbWeQ?e=Z9LBGD">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$0v7n8rc35qd"
+                        alt="Redes De Computadores">
+                    <h3>Redes De Computadores</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EeFY3nur4BZLgsD0Zm9Msy4Be8Rl74UOwA9dC42aCV5MVA?e=ZryezY">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$uqu7022lcy9"
+                        alt="Secretariado">
+                    <h3>Secretariado</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/Efxd_KM03x1MrV-69Epc0tUB0Rh609c7S95mpE_QzZIScg?e=Ne0lGn">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$ug2tgdqly2c"
+                        alt="Segurança Pública">
+                    <h3>Segurança Pública (Apenas Concursados)</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EdsHsuUNXbxJtxGFOYdowzMBeUdxo27yXeYOEn6xgvtE7Q?e=awXuws">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$syvulwjz42p"
+                        alt="Serviços jurídicos Cartorários E Notariais">
+                    <h3>Serviços jurídicos Cartorários E Notariais</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ER1mgrpIiI9PqZEjDX8nlu4BjkOSB0glnbr-EeEO0OqaJA?e=l9NkOk">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$t2hxjwlwbk8"
+                        alt="Sistemas Para Internet">
+                    <h3>Sistemas Para Internet</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EcPgkHvFWqZJjYAph2JkppUBW5FZ-ZX8p7bLan2pU4WmlA?e=r1AAWV">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676403231/$2vwi15z5x6y"
+                        alt="Terapias Integrativas E Complementares">
+                    <h3>Terapias Integrativas E Complementares</h3>
+                </a>
+            </div>
+            <div class="image-item">
+                <a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EV3-m3J-4dNPoJxhvKducC0B4PfZWgZgL_HZPNn3V69weA?e=QAhrEY">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$m5xpmbhkdbf"
+                        alt="Artes Visuais">
+                    <h3>Artes Visuais</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EcKL_DgaUYhMiFCBRcP-AUIB7jTBmdt7yCqB9frkRG7oNQ?e=V4YTA8">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$7xm2t77qbkv"
+                        alt="Educação Especial">
+                    <h3>Educação Especial</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ESOLpm3U-15DsFmnTRhPDOUBs_AQU7QacqKAtJAFiRQvFQ?e=zvarrK">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$kdhckl5vesd"
+                        alt="Educação Física - licenciatura">
+                    <h3>Educação Física - licenciatura</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EQW4aSgSziJBsc8frOrjlVwBM0-qZgIl3gdYTGlc5NSYPA?e=KZwg6t">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$xketb2fvj3"
+                        alt="Filosofia">
+                    <h3>Filosofia</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EZQVu0DtXhpKkLVfqROMWHMBfldQvULh3jmmo8rbFTLQpQ?e=B6PZR4">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$o9vbws09g4"
+                        alt="Geografia">
+                    <h3>Geografia</h3>
+                </a>
+            </div>
+            <div class="image-item">
+                <a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EZs1ch1QbsFCoxkmutpZAtQB3AB1Qo7zvdd9FlAnEHZUmg?e=wvkqUf">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$rpst2pu1ks"
+                        alt="História">
+                    <h3>História</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EQSzlxxjI4pPgmqFp-4YB4MBe_IhD29AkL8lPP1AvrPGyg?e=vkraSM">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$j9bjp4bzfp"
+                        alt="Letras - Português">
+                    <h3>Letras - Português</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/Eah8YSgkxBRFgdmV24IV5DQB1_mmWlPdArHk9EHrLnNLhw?e=FwAkj4">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$4sjbtsh03rh"
+                        alt="Letras - Português e Espanhol">
+                    <h3>Letras - Português e Espanhol</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EWFynsyDOG5Jrps2lpQVr6UBiCd4NmD7k9fyFR8dn8fJfw?e=x2qyxx">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$5xxxe237lsm"
+                        alt="Letras - Português e Inglês">
+                    <h3>Letras - Português e Inglês</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ER1gzVOtoLlOtP7q1OO2HOwB-f676pi-FezY8Yqd56qoJw?e=DFhW4q">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$uk3fxuu7win"
+                        alt="Matemática">
+                    <h3>Matemática</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EaGyUleb8J5JgF98_L-Bpy8B0XzpIXFFpIco0h4gwMZwSA?e=XeivLj">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$7v0izqadcgy"
+                        alt="Pedagogia">
+                    <h3>Pedagogia</h3>
+                </a>
+            </div>
+            <div class="image-item">
+                <a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ESHup30c0HJIu-upJl0qtYoBco_FQO-MVOc_PW6TG1h6Hw?e=bpWxBN">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$dz1tb0vvead"
+                        alt="Sociologia">
+                    <h3>Sociologia</h3>
+                </a>
+            </div>
+            <div class="image-item">
+                <a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EY8kbyDEyrJBm3VAoJSNMEsBt9DW94sNfJSXUQnfvjifSQ?e=6i3AOC">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676311701/$y2xuzdckx1j"
+                        alt="Administração Pública">
+                    <h3>Administração Pública</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/Efa17TVOMAdOpzJh7qI6vnUB8p-zRjdmmigUhzgD-16Scw?e=g9I8So">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1675788867/$kodsg0b404d"
+                        alt="Administração">
+                    <h3>Administração</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EbQ4zAz1Nb9PvWSdhwD0YXcBH83KVR5G1Wvy2pvoiGQxHA?e=wzBzzj">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$d1eohadtb0e"
+                        alt="Ciências Contábeis">
+                    <h3>Ciências Contábeis</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EYzx7DcLhX5JtL0yLrbOHCoB2kFoLYJPa6UCHO61JcQMUQ?e=vxfHMs">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$u5n0szbczea"
+                        alt="Ciências Econômicas">
+                    <h3>Ciências Econômicas</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EZW0Zh5E0wxJqCtOJpszL1MB0aoT2z2VworwBidgFzskzg?e=qLodV5">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676311701/$41zv1gu9qmg"
+                        alt="Criminologia">
+                    <h3>Criminologia</h3>
+                </a>
+            </div>
+            <div class="image-item">
+                <a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EeSoEdIiJkdNuIz-CC7DrvoBfJ5oEnFlCihRhh8estHijg?e=awvPX5">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$bfuh7chqobq"
+                        alt="Enfermagem">
+                    <h3>Enfermagem</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EY_HGJZxGS9JmAibDCEsxHQBepNODfTsirAsVLXvDVtNdw?e=mhUlCP">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$f0rttt6j9o"
+                        alt="Engenharia Civil">
+                    <h3>Engenharia Civil</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EYZ8xNrwjYRCl0DLEOyu5LsBtbYRiU6n7fTru8UX-fd2kA?e=5tHiPd">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1675788867/$ja7vlif9mnj"
+                        alt="Engenharia Da Computação">
+                    <h3>Engenharia Da Computação</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EViXEAhDAX9KrDv8TbfJiN0B0ev5EH4yg8cKSFBdTUh3RQ?e=9VKbvF">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$xsonrmn2gis"
+                        alt="Engenharia De Produção">
+                    <h3>Engenharia De Produção</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EfvL_nma8oNCkoVJ6j9SJwIBOctEICuaGrfRr9CMvCgjYA?e=14u6fX">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$5n3a6wu18ni"
+                        alt="Engenharia De Software">
+                    <h3>Engenharia De Software</h3>
+                </a>
+            </div>
+            <div class="image-item">
+                <a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ETRdmnaDwhZEgWQVh6sKHf0BQP4ix9rYQhh7i9GEjOHsoA?e=Ko2zlC">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$m9j06yb0p9h"
+                        alt="Engenharia Elétrica">
+                    <h3>Engenharia Elétrica</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EV9zI4XHRBVLgz0I37otgdUBrcDkcld6VuZQRQqeMftuWg?e=PMlswL">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$icsbhbiszrd"
+                        alt="Engenharia Mecânica">
+                    <h3>Engenharia Mecânica</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EScZqf9_0cxBqu20hiMonTMBLLkeNif87yLkcIpxLJ_BTQ?e=GhgEmM">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$ckqbtgcyvvm"
+                        alt="Jornalismo">
+                    <h3>Jornalismo</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EcJutiWCQM1DjselSfM6DigBJPneAvHFaw3x-k0kY9YkIw?e=pFrcUD">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$b4xq3gmn8rp"
+                        alt="Publicidade e Propaganda">
+                    <h3>Publicidade e Propaganda</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/EUegKcqd67RMkDlCAimKGSIBWM3atsCCYskEkpISFKWetA?e=YnJKfv">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$y8v7ihhlndc"
+                        alt="Serviço Social">
+                    <h3>Serviço Social</h3>
+                </a>
+            </div>
+            <div class="image-item"><a target="_blank" href="https://poloskroton.sharepoint.com/:b:/s/unoparrubiataba2/ERcla_BZpMhBldZGQNND1D8Beuxxa_Bg7zrsp85PLuR7fg?e=AIPBuM">
+                    <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676311701/$x2cheru5f6a"
+                        alt="Teologia">
+                    <h3>Teologia</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function search() {
+            var input = document.getElementById("searchInput").value;
+            var imageItems = document.getElementsByClassName("image-item");
+            for (var i = 0; i < imageItems.length; i++) {
+                if (imageItems[i].getElementsByTagName("img")[0].alt.toLowerCase().includes(input.toLowerCase())) {
+                    imageItems[i].style.display = "block";
+                } else {
+                    imageItems[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://kit.fontawesome.com/abaec65dc3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<html>
+  <head>
+<link rel="stylesheet" href="/css/MotorDeBuscaImg.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+  </style>
+  <body>
+    <div class="container-header">
+    <header data-aos="fade-right" style="transition: 2s;">
+      <div class="nav">
+          <input type="checkbox" id="nav-check">
+          <div class="nav-header">
+            <div class="nav-title"> <i class="fa-solid fa-book"></i><a href="https://educacao.andrattibrasil.com.br/unopar-rubiataba"> <b>Unopar Rubiataba</b> </a>
+             
+            </div>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          
+          <div class="nav-links">
+            <a href="" target="_blank"></a>
+            <a href="" target="_blank"></a>
+            <a href="" target="_blank"></a>
+            <a href="https://educacao.andrattibrasil.com.br/unopar-rubiataba">Voltar</a>
+            <a href=""><b>Contato</b></a>
+          </div>
+        </div>
+  </header>
+</div>
+<div class="Orientacoes">
+  <h1>Licenciaturas</h1>
+  <p>Procure sua Graduação de desejo através da barra de pesquisa abaixo, caso não encontre procure também em <a href="https://educacao.andrattibrasil.com.br/unopar-rubiataba-tecnologos">Tecnologos</a> ou  <a href="https://educacao.andrattibrasil.com.br/unopar-rubiataba-bacharelado">Bacharelado</a>  
+<br><br>
+    Para saber melhor sobre o curso, basta clicar na imagem da graduação desejada</p>
+</div>
+    <div class="Espaco-button-input">
+        
+    <input placeholder="Pesquisar" type="text" id="searchInput" style="caret-color: red;">
+    <button onclick="search()">  <span></span>
+        <span></span>
+        <span></span>
+        <span></span> Pesquisar
+    
+    
+    </button></div>
+    <div class="Container-images" data-aos="fade-up">
+    <div class="images">
+      <div class="image-item">
+        <a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$m5xpmbhkdbf" alt="Artes Visuais">
+        <h3>Artes Visuais</h3>
+    </a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$7xm2t77qbkv" alt="Educação Especial">
+        <h3>Educação Especial</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$kdhckl5vesd" alt="Educação Física - licenciatura">
+        <h3>Educação Física - licenciatura</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$xketb2fvj3" alt="Filosofia">
+        <h3>Filosofia</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$o9vbws09g4" alt="Geografia">
+        <h3>Geografia</h3></a>
+      </div>
+      <div class="image-item">
+        <a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$rpst2pu1ks" alt="História">
+        <h3>História</h3>
+    </a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$j9bjp4bzfp" alt="Letras - Português">
+        <h3>Letras - Português</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$4sjbtsh03rh" alt="Letras - Português e Espanhol">
+        <h3>Letras - Português e Espanhol</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$5xxxe237lsm" alt="Letras - Português e Inglês">
+        <h3>Letras - Português e Inglês</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$uk3fxuu7win" alt="Matemática">
+        <h3>Matemática</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$7v0izqadcgy" alt="Pedagogia">
+        <h3>Pedagogia</h3></a>
+      </div>
+      <div class="image-item">
+        <a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676420640/$dz1tb0vvead" alt="Sociologia">
+        <h3>Sociologia</h3>
+    </a>
+    </div>
+    </div>
+  </div>
+    <script>
+      function search() {
+        var input = document.getElementById("searchInput").value;
+        var imageItems = document.getElementsByClassName("image-item");
+        for (var i = 0; i < imageItems.length; i++) {
+          if (imageItems[i].getElementsByTagName("img")[0].alt.toLowerCase().includes(input.toLowerCase())) {
+            imageItems[i].style.display = "block";
+          } else {
+            imageItems[i].style.display = "none";
+          }
+        }
+      }
+    </script>
+    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://kit.fontawesome.com/abaec65dc3.js" crossorigin="anonymous"></script>
+  </body>
+</html>

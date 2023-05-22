@@ -1,0 +1,150 @@
+<html>
+  <head>
+<link rel="stylesheet" href="/css/MotorDeBuscaImg.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+  </style>
+  <body>
+    <div class="container-header">
+    <header data-aos="fade-right" style="transition: 2s;">
+      <div class="nav">
+          <input type="checkbox" id="nav-check">
+          <div class="nav-header">
+            <div class="nav-title"> <i class="fa-solid fa-book"></i><a href="https://educacao.andrattibrasil.com.br/unopar-rubiataba"> <b>Unopar Rubiataba</b> </a>
+             
+            </div>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          
+          <div class="nav-links">
+            <a href="" target="_blank"></a>
+            <a href="" target="_blank"></a>
+            <a href="" target="_blank"></a>
+            <a href="https://educacao.andrattibrasil.com.br/unopar-rubiataba">Voltar</a>
+            <a href=""><b>Contato</b></a>
+          </div>
+        </div>
+  </header>
+</div>
+<div class="Orientacoes">
+  <h1>Bacharelado</h1>
+  <p>Procure sua Graduação de desejo através da barra de pesquisa abaixo, caso não encontre procure também em <a href="">Licenciatura</a> ou  <a href="">Tecnólogos</a>  
+<br><br>
+    Para saber melhor sobre o curso, basta clicar na imagem da graduação desejada</p>
+</div>
+    <div class="Espaco-button-input">
+        
+    <input placeholder="Pesquisar" type="text" id="searchInput" style="caret-color: red;">
+    <button onclick="search()">  <span></span>
+        <span></span>
+        <span></span>
+        <span></span> Pesquisar
+    
+    
+    </button></div>
+    <div class="Container-images" data-aos="fade-up">
+    <div class="images">
+      <div class="image-item">
+        <a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676311701/$y2xuzdckx1j" alt="Administração Pública">
+        <h3>Administração Pública</h3>
+    </a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1675788867/$kodsg0b404d" alt="Administração">
+        <h3>Administração</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$d1eohadtb0e" alt="Ciências Contábeis">
+        <h3>Ciências Contábeis</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$u5n0szbczea" alt="Ciências Econômicas">
+        <h3>Ciências Econômicas</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676311701/$41zv1gu9qmg" alt="Criminologia">
+        <h3>Criminologia</h3></a>
+      </div>
+      <div class="image-item">
+        <a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$bfuh7chqobq" alt="Enfermagem">
+        <h3>Enfermagem</h3>
+    </a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$f0rttt6j9o" alt="Engenharia Civil">
+        <h3>Engenharia Civil</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1675788867/$ja7vlif9mnj" alt="Engenharia Da Computação">
+        <h3>Engenharia Da Computação</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$xsonrmn2gis" alt="Engenharia De Produção">
+        <h3>Engenharia De Produção</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$5n3a6wu18ni" alt="Engenharia De Software">
+        <h3>Engenharia De Software</h3></a>
+      </div>
+      <div class="image-item">
+        <a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$m9j06yb0p9h" alt="Engenharia Elétrica">
+        <h3>Engenharia Elétrica</h3>
+    </a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$icsbhbiszrd" alt="Engenharia Mecânica">
+        <h3>Engenharia Mecânica</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$ckqbtgcyvvm" alt="Jornalismo">
+        <h3>Jornalismo</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$b4xq3gmn8rp" alt="Publicidade e Propaganda">
+        <h3>Publicidade e Propaganda</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676309785/$y8v7ihhlndc" alt="Serviço Social">
+        <h3>Serviço Social</h3></a>
+      </div>
+      <div class="image-item"><a href="">
+        <img src="https://d335luupugsy2.cloudfront.net/cms/files/414721/1676311701/$x2cheru5f6a" alt="Teologia">
+        <h3>Teologia</h3></a>
+      </div>
+    </div>
+  </div>
+    <script>
+      function search() {
+        var input = document.getElementById("searchInput").value;
+        var imageItems = document.getElementsByClassName("image-item");
+        for (var i = 0; i < imageItems.length; i++) {
+          if (imageItems[i].getElementsByTagName("img")[0].alt.toLowerCase().includes(input.toLowerCase())) {
+            imageItems[i].style.display = "block";
+          } else {
+            imageItems[i].style.display = "none";
+          }
+        }
+      }
+    </script>
+    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://kit.fontawesome.com/abaec65dc3.js" crossorigin="anonymous"></script>
+  </body>
+</html>
